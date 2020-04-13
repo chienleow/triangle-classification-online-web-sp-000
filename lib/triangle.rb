@@ -24,7 +24,7 @@ class Triangle
       :isosceles ## good
     elsif !(s2 == s3 || s1 == s3 || s1 == s2)
       :scalene
-    elsif
+    else
       raise TriangleError
     end
   end
