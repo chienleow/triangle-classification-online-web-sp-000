@@ -17,11 +17,11 @@ class Triangle
   end
   
   def kind
-    invalid_triangle
+    !invalid_triangle
     if s1 == s2 && s2 == s3
-      :equilateral ## good
+      :equilateral
     elsif s2 == s3 || s1 == s3 || s1 == s2
-      :isosceles ## good
+      :isosceles
     elsif !(s2 == s3 || s1 == s3 || s1 == s2)
       :scalene
     else
