@@ -10,6 +10,10 @@ class Triangle
     @s3 = s3
   end
   
+  def invalid_triangle
+  
+  end
+  
   def kind
     if s1 == s2 && s2 == s3
       :equilateral ## good
