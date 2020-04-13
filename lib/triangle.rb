@@ -11,7 +11,7 @@ class Triangle
   end
   
   def invalid_triangle
-    if s1 <= 0 || s2 <= 0 || s3 <= 0
+    if (s1||s2||s3) <= 0
       # binding.pry
       raise TriangleError
     end
