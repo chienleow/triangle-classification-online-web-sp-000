@@ -11,7 +11,7 @@ class Triangle
   end
   
   def invalid_triangle
-  
+    if (si)
   end
   
   def kind
