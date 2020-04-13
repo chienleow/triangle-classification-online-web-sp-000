@@ -12,6 +12,7 @@ class Triangle
   
   def invalid_triangle
     if (s1||s2||s3) == 0
+      raise TriangleError
   end
   
   def kind
